@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.8" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="modal" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" pref="0" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="427" max="32767" attributes="0"/>
+                      <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="205" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="447" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnClose" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="23" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btnClose">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Close"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCloseActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xa;&lt;div align=&quot;center&quot;&gt;&lt;h2&gt;SarBox&lt;/h2&gt;&lt;/div&gt;&#xa;&lt;p&gt;SarBox Version 5.0 has been released on 10-Auguest-2018 by Sumit Biswas&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;&amp;copy; Copyright 2011-2018&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;SarBox helps user to parse, analyze and export sar data. The sar command writes to standard output the contents of selected cumulative activity counters in the operating system, usually Unix&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;SarBox is a free application deveolped in Java(tm) platform.  It runs on the Java (JDK 1.8 or later).&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;I am not a lawer, so don&apos;t understand much about license. Meaning, SarBox is free for anyone. If you want to claim that SarBox is yours and put it on fire, I have no problem.&lt;/p&gt;&#xa;&lt;p&gt;I would appriciate anyone who wants to contribute and make changes to improve SarBox.&lt;/p&gt;&#xa;&lt;p&gt;I appreciate and very thankful to jfreechart and itext for their contribution.&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;This application includes library by http://www.jfree.org/jfreechart/ and https://itextpdf.com/&lt;/p&gt;&#xa;&lt;br&gt;&#xa;&lt;p&gt;Anybody can contact me in sumitsushil@gmail.com&lt;/p&gt;&#xa;&lt;/html&gt;"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
